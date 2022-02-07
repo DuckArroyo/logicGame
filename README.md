@@ -1,5 +1,7 @@
 # Logic Game
 
+## Description
+
 Working on improving JavaScript skills.
 Improving on the logic project from bootcamp.
 
@@ -7,8 +9,6 @@ Improving on the logic project from bootcamp.
 - display game dynamically on screen not on the console.
 
 ![GitHublicense](https://img.shields.io/npm/l/express?style=for-the-badge)
-
-## Description
 
 ## Links
 
