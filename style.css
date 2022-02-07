@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+  align-items: flex-end;
+}
+
+#header,
+#container {
+  height: 33vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(102, 102, 102));
+}
