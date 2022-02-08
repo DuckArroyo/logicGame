@@ -7,12 +7,10 @@
 
 #header,
 #container {
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
   text-align: center;
-  align-items: center;
+  height: 50vh;
   background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(102, 102, 102));
+  padding: 50px;
 }
 
 /* Modal background */
@@ -23,8 +21,8 @@
   z-index: 1; /* place over all content */
   left: 0;
   top: 0;
-  width: 100vw; /* cover full window width */
-  height: 100vh; /* cover full window height */
+  width: 100%; /* cover full window width */
+  height: 100%; /* cover full window height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgba(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0.4); /* Black w/ opacity */
@@ -37,6 +35,8 @@
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+  min-height: 10%;
+  border-radius: 25px;
 }
 
 /* Close button */
